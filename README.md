@@ -32,6 +32,6 @@ jobs:
       - name: Create release
         env:
           GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-        uses: silicon-heaven/rust-nightly-release-action
+        uses: silicon-heaven/rust-nightly-release-action@v1.0.0
         with: '*-latest-nightly-binary'
 ```
